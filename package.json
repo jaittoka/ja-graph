@@ -1,12 +1,12 @@
 {
   "name": "ja-graph",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple multidirectional graph library",
   "author": "Jukka Aittokallio <jukka@aittokallio.com>",
-  "homepage": "http://github.com/jaittoka/graph",
+  "homepage": "http://github.com/jaittoka/ja-graph",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaittoka/graph.git"
+    "url": "git://github.com/jaittoka/js-graph.git"
   },
   "engines": {
     "node": ">= 0.8.0"
