@@ -1,0 +1,21 @@
+{
+  "name": "ja-graph",
+  "version": "0.1.0",
+  "description": "Simple multidirectional graph library",
+  "author": "Jukka Aittokallio <jukka@aittokallio.com>",
+  "homepage": "http://github.com/jaittoka/graph",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaittoka/graph.git"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "licence": "MIT",
+  "main": "lib/graph.js",
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-coffee": "^0.10.1"
+  },
+  "dependencies": {}
+}
