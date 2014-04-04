@@ -27,7 +27,7 @@ module.exports = class Graph
     traverse root
     root.deps
 
-  # Add a dependency from 'a' to 'b'  
+  # Set 'b' as successor to 'a'
   setForward: (a, b, kind) ->
     ao = @_getDeps a
     bo = @_getDeps b
@@ -35,7 +35,7 @@ module.exports = class Graph
     bo.b[a] = kind
     ao
 
-  # Add a depencency from 'b' to 'a'
+  # Set 'b' as predecessor to 'a'
   setBackward: (a, b, kind) ->
     ao = @_getDeps a
     bo = @_getDeps b
